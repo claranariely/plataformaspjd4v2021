@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
         {
             HUDObserverManager.PlayerVictory(false);
             if(SceneManager.GetActiveScene().name == levelName) LoadLevel2();
-            if(SceneManager.GetActiveScene().name == "Level2") LoadLevel1();
+            if (SceneManager.GetActiveScene().name == "LevelNARIELY 2") LoadLevel1();
         }
         else
         {
@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour
     
     public void LoadLevel2()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("LevelNARIELY 2");
     }
 
     public void LoadGameOver()
